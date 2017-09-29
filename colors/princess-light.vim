@@ -5,22 +5,22 @@ if !has('gui_running')
 endif
 
 " GUI color definitions
-let s:gui00 = "ffd4e9"
-let s:gui01 = "e8aecb"
-let s:gui02 = "bf80a0"
-let s:gui03 = "996780"
-let s:gui04 = "704b5e"
-let s:gui05 = "523744"
-let s:gui06 = "301c26"
-let s:gui07 = "1f1218"
-let s:gui08 = "d44646"
-let s:gui09 = "d46a00"
-let s:gui0A = "bf8f00"
-let s:gui0B = "3e943e"
-let s:gui0C = "199494"
-let s:gui0D = "3f7fbf"
-let s:gui0E = "8f60bf"
-let s:gui0F = "d47ba7"
+let s:gui00 = "ffebf5"
+let s:gui01 = "e8c1d4"
+let s:gui02 = "bf9faf"
+let s:gui03 = "997f8c"
+let s:gui04 = "705d67"
+let s:gui05 = "52444b"
+let s:gui06 = "30282c"
+let s:gui07 = "1f191c"
+let s:gui08 = "bf6060"
+let s:gui09 = "bf7f3f"
+let s:gui0A = "ab8e38"
+let s:gui0B = "639463"
+let s:gui0C = "639494"
+let s:gui0D = "6387ab"
+let s:gui0E = "816f94"
+let s:gui0F = "ab8096"
 
 " Terminal color definitions
 let s:cterm00 = "00"
@@ -42,22 +42,22 @@ let s:cterm0F = "17"
 
 " Neovim terminal colours
 if has("nvim")
-  let g:terminal_color_0 =  "#ffd4e9"
-  let g:terminal_color_1 =  "#d44646"
-  let g:terminal_color_2 =  "#3e943e"
-  let g:terminal_color_3 =  "#bf8f00"
-  let g:terminal_color_4 =  "#3f7fbf"
-  let g:terminal_color_5 =  "#8f60bf"
-  let g:terminal_color_6 =  "#199494"
-  let g:terminal_color_7 =  "#523744"
-  let g:terminal_color_8 =  "#996780"
-  let g:terminal_color_9 =  "#d46a00"
-  let g:terminal_color_10 = "#e8aecb"
-  let g:terminal_color_11 = "#bf80a0"
-  let g:terminal_color_12 = "#704b5e"
-  let g:terminal_color_13 = "#301c26"
-  let g:terminal_color_14 = "#d47ba7"
-  let g:terminal_color_15 = "#1f1218"
+  let g:terminal_color_0 =  "#ffebf5"
+  let g:terminal_color_1 =  "#bf6060"
+  let g:terminal_color_2 =  "#639463"
+  let g:terminal_color_3 =  "#ab8e38"
+  let g:terminal_color_4 =  "#6387ab"
+  let g:terminal_color_5 =  "#816f94"
+  let g:terminal_color_6 =  "#639494"
+  let g:terminal_color_7 =  "#52444b"
+  let g:terminal_color_8 =  "#997f8c"
+  let g:terminal_color_9 =  "#bf7f3f"
+  let g:terminal_color_10 = "#e8c1d4"
+  let g:terminal_color_11 = "#bf9faf"
+  let g:terminal_color_12 = "#705d67"
+  let g:terminal_color_13 = "#30282c"
+  let g:terminal_color_14 = "#ab8096"
+  let g:terminal_color_15 = "#1f191c"
   let g:terminal_color_background = g:terminal_color_0
   let g:terminal_color_foreground = g:terminal_color_7
   if &background == "light"
@@ -110,7 +110,7 @@ call <sid>hi("MatchParen",    "", s:gui03, "", s:cterm03,  "", "")
 call <sid>hi("ModeMsg",       s:gui0B, "", s:cterm0B, "", "", "")
 call <sid>hi("MoreMsg",       s:gui0B, "", s:cterm0B, "", "", "")
 call <sid>hi("Question",      s:gui0D, "", s:cterm0D, "", "", "")
-call <sid>hi("Search",        s:gui00, s:gui0A, s:cterm00, s:cterm0A,  "", "")
+call <sid>hi("Search",        s:gui00, s:gui09, s:cterm00, s:cterm09,  "", "")
 call <sid>hi("SpecialKey",    s:gui03, "", s:cterm03, "", "", "")
 call <sid>hi("TooLong",       s:gui08, "", s:cterm08, "", "", "")
 call <sid>hi("Underlined",    s:gui08, "", s:cterm08, "", "", "")
