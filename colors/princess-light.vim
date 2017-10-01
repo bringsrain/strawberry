@@ -6,21 +6,21 @@ endif
 
 " GUI color definitions
 let s:gui00 = "ffebf5"
-let s:gui01 = "e8c1d4"
-let s:gui02 = "bf9faf"
-let s:gui03 = "997f8c"
-let s:gui04 = "705d67"
-let s:gui05 = "52444b"
-let s:gui06 = "30282c"
-let s:gui07 = "1f191c"
-let s:gui08 = "bf6060"
-let s:gui09 = "bf7f3f"
-let s:gui0A = "ab8e38"
-let s:gui0B = "639463"
-let s:gui0C = "639494"
-let s:gui0D = "6387ab"
-let s:gui0E = "816f94"
-let s:gui0F = "ab8096"
+let s:gui01 = "e8ccda"
+let s:gui02 = "bf8fa7"
+let s:gui03 = "997386"
+let s:gui04 = "705462"
+let s:gui05 = "523d47"
+let s:gui06 = "30242a"
+let s:gui07 = "1f171b"
+let s:gui08 = "bf5050"
+let s:gui09 = "bf7730"
+let s:gui0A = "ab8b2b"
+let s:gui0B = "569456"
+let s:gui0C = "569494"
+let s:gui0D = "608fbf"
+let s:gui0E = "8f72ab"
+let s:gui0F = "bf6f98"
 
 " Terminal color definitions
 let s:cterm00 = "00"
@@ -43,21 +43,21 @@ let s:cterm0F = "17"
 " Neovim terminal colours
 if has("nvim")
   let g:terminal_color_0 =  "#ffebf5"
-  let g:terminal_color_1 =  "#bf6060"
-  let g:terminal_color_2 =  "#639463"
-  let g:terminal_color_3 =  "#ab8e38"
-  let g:terminal_color_4 =  "#6387ab"
-  let g:terminal_color_5 =  "#816f94"
-  let g:terminal_color_6 =  "#639494"
-  let g:terminal_color_7 =  "#52444b"
-  let g:terminal_color_8 =  "#997f8c"
-  let g:terminal_color_9 =  "#bf7f3f"
-  let g:terminal_color_10 = "#e8c1d4"
-  let g:terminal_color_11 = "#bf9faf"
-  let g:terminal_color_12 = "#705d67"
-  let g:terminal_color_13 = "#30282c"
-  let g:terminal_color_14 = "#ab8096"
-  let g:terminal_color_15 = "#1f191c"
+  let g:terminal_color_1 =  "#bf5050"
+  let g:terminal_color_2 =  "#569456"
+  let g:terminal_color_3 =  "#ab8b2b"
+  let g:terminal_color_4 =  "#608fbf"
+  let g:terminal_color_5 =  "#8f72ab"
+  let g:terminal_color_6 =  "#569494"
+  let g:terminal_color_7 =  "#523d47"
+  let g:terminal_color_8 =  "#997386"
+  let g:terminal_color_9 =  "#bf7730"
+  let g:terminal_color_10 = "#e8ccda"
+  let g:terminal_color_11 = "#bf8fa7"
+  let g:terminal_color_12 = "#705462"
+  let g:terminal_color_13 = "#30242a"
+  let g:terminal_color_14 = "#bf6f98"
+  let g:terminal_color_15 = "#1f171b"
   let g:terminal_color_background = g:terminal_color_0
   let g:terminal_color_foreground = g:terminal_color_7
   if &background == "light"
@@ -106,7 +106,7 @@ call <sid>hi("Folded",        s:gui03, s:gui01, s:cterm03, s:cterm01, "", "")
 call <sid>hi("IncSearch",     s:gui01, s:gui09, s:cterm01, s:cterm09, "none", "")
 call <sid>hi("Italic",        "", "", "", "", "none", "")
 call <sid>hi("Macro",         s:gui08, "", s:cterm08, "", "", "")
-call <sid>hi("MatchParen",    "", s:gui03, "", s:cterm03,  "", "")
+call <sid>hi("MatchParen",    s:gui00, s:gui03, s:cterm00, s:cterm03,  "", "")
 call <sid>hi("ModeMsg",       s:gui0B, "", s:cterm0B, "", "", "")
 call <sid>hi("MoreMsg",       s:gui0B, "", s:cterm0B, "", "", "")
 call <sid>hi("Question",      s:gui0D, "", s:cterm0D, "", "", "")
@@ -130,7 +130,7 @@ call <sid>hi("VertSplit",     s:gui02, s:gui02, s:cterm02, s:cterm02, "none", ""
 call <sid>hi("ColorColumn",   "", s:gui01, "", s:cterm01, "none", "")
 call <sid>hi("CursorColumn",  "", s:gui01, "", s:cterm01, "none", "")
 call <sid>hi("CursorLine",    "", s:gui01, "", s:cterm01, "none", "")
-call <sid>hi("CursorLineNr",  s:gui04, s:gui01, s:cterm04, s:cterm01, "", "")
+call <sid>hi("CursorLineNr",  s:gui00, s:gui03, s:cterm00, s:cterm03, "", "")
 call <sid>hi("QuickFixLine",  "", s:gui01, "", s:cterm01, "none", "")
 call <sid>hi("PMenu",         s:gui05, s:gui01, s:cterm05, s:cterm01, "none", "")
 call <sid>hi("PMenuSel",      s:gui01, s:gui05, s:cterm01, s:cterm05, "", "")
