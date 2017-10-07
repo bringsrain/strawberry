@@ -5,9 +5,18 @@
 <h2 id="screenshots">screenshots</h2>
 
 <table>
-<tr></tr><tr><td align="center"><strong>strawberry-<br />light</strong></td>
-<td align="center"><img src="/img/screenshot-strawberry-light.png" alt="screenshot of the strawberry-light vim theme" width="288" /> <img src="/img/screenshot-strawberry-dark.png" alt="screenshot of the strawberry-dark vim theme" width="288" /></td>
-<td align="center"><strong>strawberry-<br />dark</strong></td></tr>
+  <thead>
+    <tr>
+      <th style="text-align: center">strawberry-dark</th>
+      <th style="text-align: center">strawberry-light</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img src="/img/screenshot-strawberry-dark.png" alt="screenshot of the strawberry-dark vim theme" width="288" /></td>
+      <td style="text-align: center"><img src="/img/screenshot-strawberry-light.png" alt="screenshot of the strawberry-light vim theme" width="288" /></td>
+    </tr>
+  </tbody>
 </table>
 
 <blockquote>
