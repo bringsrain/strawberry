@@ -1,4 +1,4 @@
-" princess-light, a vim colourscheme by nightsense
+" strawberry-dark, a vim colourscheme by nightsense
 "
 " generated with a theme template adapted from
 " base16-vim (https://github.com/chriskempson/base16-vim)
@@ -8,22 +8,22 @@
 "=== SET VARIABLES ============================================================
 
 " GUI colours
-let s:g0 = 'ffd4e6'
-let s:g1 = 'e0a8c0'
-let s:g2 = 'bf8fa3'
-let s:g3 = '946377'
-let s:g4 = '754f5f'
-let s:g5 = '543844'
-let s:g6 = '402530'
-let s:g7 = '2b1920'
-let s:g8 = 'eb403a'
-let s:g9 = 'eb6d13'
-let s:gA = 'ebc83b'
-let s:gB = '259433'
-let s:gC = '009488'
-let s:gD = '308bbf'
-let s:gE = '8c60bf'
-let s:gF = 'e05e89'
+let s:g0 = '2b191e'
+let s:g1 = '40252d'
+let s:g2 = '54313b'
+let s:g3 = '754f5a'
+let s:g4 = '946372'
+let s:g5 = 'bf8093'
+let s:g6 = 'e0bac6'
+let s:g7 = 'ffebf1'
+let s:g8 = 'eb6363'
+let s:g9 = 'e0894a'
+let s:gA = 'e0c34a'
+let s:gB = '639467'
+let s:gC = '4a948e'
+let s:gD = '6097bf'
+let s:gE = '9a80bf'
+let s:gF = 'e0829e'
 
 " terminal colours
 let s:t0 = '00'
@@ -45,22 +45,22 @@ let s:tF = '17'
 
 " neovim colours
 if has('nvim')
-  let g:terminal_color_0 =  '#ffd4e6'
-  let g:terminal_color_1 =  '#eb403a'
-  let g:terminal_color_2 =  '#259433'
-  let g:terminal_color_3 =  '#ebc83b'
-  let g:terminal_color_4 =  '#308bbf'
-  let g:terminal_color_5 =  '#8c60bf'
-  let g:terminal_color_6 =  '#009488'
-  let g:terminal_color_7 =  '#543844'
-  let g:terminal_color_8 =  '#946377'
-  let g:terminal_color_9 =  '#eb6d13'
-  let g:terminal_color_10 = '#e0a8c0'
-  let g:terminal_color_11 = '#bf8fa3'
-  let g:terminal_color_12 = '#754f5f'
-  let g:terminal_color_13 = '#402530'
-  let g:terminal_color_14 = '#e05e89'
-  let g:terminal_color_15 = '#2b1920'
+  let g:terminal_color_0 =  '#2b191e'
+  let g:terminal_color_1 =  '#eb6363'
+  let g:terminal_color_2 =  '#639467'
+  let g:terminal_color_3 =  '#e0c34a'
+  let g:terminal_color_4 =  '#6097bf'
+  let g:terminal_color_5 =  '#9a80bf'
+  let g:terminal_color_6 =  '#4a948e'
+  let g:terminal_color_7 =  '#bf8093'
+  let g:terminal_color_8 =  '#754f5a'
+  let g:terminal_color_9 =  '#e0894a'
+  let g:terminal_color_10 = '#40252d'
+  let g:terminal_color_11 = '#54313b'
+  let g:terminal_color_12 = '#946372'
+  let g:terminal_color_13 = '#e0bac6'
+  let g:terminal_color_14 = '#e0829e'
+  let g:terminal_color_15 = '#ffebf1'
 endif
 
 
@@ -68,16 +68,16 @@ endif
 
 " run theme-setting script if using terminal vim
 if !has('gui_running')
-  execute 'silent !/bin/sh $HOME/.nightshell/princess-light'
+  execute 'silent !/bin/sh $HOME/.nightshell/strawberry-dark'
   autocmd CursorMoved * execute 'if !exists("colors_name") |
-        \ let colors_name = "princess-light" |
-        \ colorscheme princess-light | endif'
+        \ let colors_name = "strawberry-dark" |
+        \ colorscheme strawberry-dark | endif'
 endif
 
 " clear old theme, activate new
 hi clear
 syntax reset
-let colors_name = 'princess-light'
+let colors_name = 'strawberry-dark'
 
 " highlighting function
 fun! <sid>h(x, gf, gb, cf, cb, a, s)
@@ -136,6 +136,7 @@ cal <sid>h('TabLine'          , s:g4 , s:g1 , s:t4 , s:t1 , 'none'      , ''  )
 cal <sid>h('VisualNOS'        , s:g4 , s:g1 , s:t4 , s:t1 , 'none'      , ''  )
 
 " strongly highlighted background
+cal <sid>h('MatchParen'       , s:g6 , s:g2 , s:t6 , s:t2 , 'none'      , ''  )
 cal <sid>h('Pmenu'            , s:g6 , s:g2 , s:t6 , s:t2 , 'none'      , ''  )
 cal <sid>h('Visual'           , s:g6 , s:g2 , s:t6 , s:t2 , 'none'      , ''  )
 
@@ -170,10 +171,9 @@ cal <sid>h('SpellCap'         , ''   , ''   , s:t9 , s:t0 , 'undercurl' , s:g9)
 cal <sid>h('Title'            , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
 
 " YELLOW for highlighted elements
-cal <sid>h('DiffText'         , s:g7 , s:gA , s:t7 , s:tA , 'none'      , ''  )
-cal <sid>h('MatchParen'       , s:g7 , s:gA , s:t7 , s:tA , 'none'      , ''  )
-cal <sid>h('Search'           , s:g7 , s:gA , s:t7 , s:tA , 'none'      , ''  )
-cal <sid>h('Todo'             , s:g7 , s:gA , s:t7 , s:tA , 'none'      , ''  )
+cal <sid>h('DiffText'         , s:g0 , s:gA , s:t0 , s:tA , 'none'      , ''  )
+cal <sid>h('Search'           , s:g0 , s:gA , s:t0 , s:tA , 'none'      , ''  )
+cal <sid>h('Todo'             , s:g0 , s:gA , s:t0 , s:tA , 'none'      , ''  )
 
 " GREEN for action elements
 cal <sid>h('Conditional'      , s:gB , ''   , s:tB , ''   , ''          , ''  )
