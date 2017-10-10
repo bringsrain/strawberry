@@ -120,7 +120,7 @@ call plug#end()
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/e0c5ce.png" height="24" width="42" /> <code class="highlighter-rouge">e0c5ce</code> </td>
       <td style="text-align: center"><img src="http://www.colorhexa.com/885bb5.png" height="24" width="42" /> <code class="highlighter-rouge">885bb5</code> </td>
-      <td style="text-align: left"><img src="http://www.colorhexa.com/9779b5.png" height="24" width="42" /> <code class="highlighter-rouge">9779b5</code></td>
+      <td style="text-align: left"><img src="http://www.colorhexa.com/846a9e.png" height="24" width="42" /> <code class="highlighter-rouge">846a9e</code></td>
     </tr>
     <tr>
       <td style="text-align: right"><img src="http://www.colorhexa.com/fff5f8.png" height="24" width="42" /> <code class="highlighter-rouge">fff5f8</code> </td>
