@@ -67,8 +67,10 @@ endif
 "=== OTHER PREPARATION ========================================================
 
 " run theme-setting script if using terminal vim
-if !has('gui_running')
-  execute 'silent !/bin/sh $HOME/.nightshell/strawberry-dark'
+if filereadable(expand('~/.nightshell/strawberry-dark'))
+  if !has('gui_running')
+    execute 'silent !/bin/sh $HOME/.nightshell/strawberry-dark'
+  endif
 endif
 
 " clear old theme
