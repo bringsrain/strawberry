@@ -102,7 +102,7 @@ let g:strawberry_light_LineNr = 'off'
       <td style="text-align: left"><img src="http://www.colorhexa.com/b5734c.png" height="24" width="42" /> <code class="highlighter-rouge">b5734c</code></td>
     </tr>
     <tr>
-      <td style="text-align: right"><img src="http://www.colorhexa.com/614149.png" height="24" width="42" /> <code class="highlighter-rouge">614149</code> </td>
+      <td style="text-align: right"><img src="http://www.colorhexa.com/6b4851.png" height="24" width="42" /> <code class="highlighter-rouge">6b4851</code> </td>
       <td style="text-align: center"><img src="http://www.colorhexa.com/d4ac35.png" height="24" width="42" /> <code class="highlighter-rouge">d4ac35</code> </td>
       <td style="text-align: left"><img src="http://www.colorhexa.com/ab9248.png" height="24" width="42" /> <code class="highlighter-rouge">ab9248</code></td>
     </tr>
@@ -117,7 +117,7 @@ let g:strawberry_light_LineNr = 'off'
       <td style="text-align: left"><img src="http://www.colorhexa.com/458a81.png" height="24" width="42" /> <code class="highlighter-rouge">458a81</code></td>
     </tr>
     <tr>
-      <td style="text-align: right"><img src="http://www.colorhexa.com/ab8e95.png" height="24" width="42" /> <code class="highlighter-rouge">ab8e95</code> </td>
+      <td style="text-align: right"><img src="http://www.colorhexa.com/9e838a.png" height="24" width="42" /> <code class="highlighter-rouge">9e838a</code> </td>
       <td style="text-align: center"><img src="http://www.colorhexa.com/3f90bf.png" height="24" width="42" /> <code class="highlighter-rouge">3f90bf</code> </td>
       <td style="text-align: left"><img src="http://www.colorhexa.com/5c869e.png" height="24" width="42" /> <code class="highlighter-rouge">5c869e</code></td>
     </tr>
