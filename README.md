@@ -7,8 +7,8 @@
 <table>
 <tr><td align="center"><strong>strawberry-dark</strong></td><td align="center"><strong>strawberry-light</strong></td></tr>
 <tr>
-<td><img src="/img/screenshot-strawberry-dark.png" alt="screenshot of the strawberry-dark vim theme" width="360" /></td>
-<td align="center"><img src="/img/screenshot-strawberry-light.png" alt="screenshot of the strawberry-light vim theme" width="360" /></td>
+<td><img src="/img/screenshot-strawberry-dark.png" alt="screenshot of the strawberry-dark vim theme" width="180" /></td>
+<td align="center"><img src="/img/screenshot-strawberry-light.png" alt="screenshot of the strawberry-light vim theme" width="180" /></td>
 </tr>
 </table>
 
